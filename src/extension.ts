@@ -259,8 +259,9 @@ class CodingPanel {
 			}
 
 			xmlString+=this.CHAR_TAB+this.TYPES_START+this.NEW_LINE;
+			let componentsSorted = components.sort();
 			
-			for(const component of components){
+			for(const component of componentsSorted){
 				xmlString+=this.CHAR_TAB+this.CHAR_TAB+this.MEMBERS_START+component+this.MEMBERS_END+this.NEW_LINE;
 			}
 
