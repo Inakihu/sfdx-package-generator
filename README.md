@@ -15,11 +15,12 @@ Before you set up Salesforce Package.xml Generator Extension for VS Code, make s
 
 ## How to use install?
 
-- command
+- command in the command palette
 ```shell
 ext install sfdx-package-xml-generate-1.0.1.vsix
 ```
 - from VSCode
+
 ![Install 1](installers/install-vsix.png)
 
 ## How to use?
