@@ -13,6 +13,15 @@ Before you set up Salesforce Package.xml Generator Extension for VS Code, make s
 
 ![Screenshot 2](sfdx-gen-pack2.png)
 
+## How to use install?
+
+- command
+```shell
+ext install sfdx-package-xml-generate-1.0.1.vsix
+```
+- from VSCode
+![Install 1](installers/install-vsix.png)
+
 ## How to use?
 - Setup your project using **SFDX: Create Project with Manifest** command and authorize it using **SFDX: Authorize an Org command**. Skip this step if already done.
 For more details refer [Org Development Model with VS Code] (https://forcedotcom.github.io/salesforcedx-vscode/articles/user-guide/org-development-model). 
